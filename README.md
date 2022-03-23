@@ -1,4 +1,4 @@
-# speech-to-text-queue
+# Project 4 Queue System and S to T
 
 Run as many receiver.py instances as you would like to support on RabbitMQ.  
 
