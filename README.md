@@ -8,7 +8,9 @@ Uses Google Cloud Storage for holding .wav audio files: https://cloud.google.com
 
 Uses Rabbitmq and Pika for queues and sending tasks: https://www.rabbitmq.com/ https://pika.readthedocs.io/en/stable/
 
-Can take .wav files from local directory or from Google Cloud Storage and convert them to text as an output.  Queue system uses a round robin setup to distribute tasks to receiving instances.  Can scale the "receiver.py" instances to any amount needed for use.  Each can take an extra task and hold it while completing its current task.  Other tasks are stored in the queue.
+Can take .wav files from local directory or from Google Cloud Storage and convert them to text as an output.  Queue system uses a round robin setup to distribute tasks to receiving instances.  Can scale the "receiver.py" instances to any amount needed for use.  Each can take an extra task and hold it while completing its current task.  Other tasks are stored in the queue.  
+
+Originally had my access key in the repo because I thought it was private but I realized it wasn't, this was an issue.  This json is needed to use the API.  I can provide if needed, the Prof. said photos of my results should suffice.  If you need to test the cloud storage links I can provide access.
 
 
 # Usage
