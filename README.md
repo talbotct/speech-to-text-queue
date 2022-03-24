@@ -1,4 +1,4 @@
-# Project 4 Queue System and Speech to Text
+# EC530 Project 4 Queue System and Speech to Text
 
 This is simple framework for running speech to text and queuing tasks with API calls such as these.  This will be slotted into my medical api and application project: https://github.com/talbotct/med-api-talbotct
 
