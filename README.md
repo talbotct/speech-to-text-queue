@@ -15,6 +15,24 @@ Originally had my access key in the repo because I thought it was private but I 
 
 # Usage
 
+Install Erlang: https://www.erlang.org/downloads
+
+Set Erlang PATH variable: 
+
+Example:
+
+![036deaa3e127d6d8e00be0b993a23ca3](https://user-images.githubusercontent.com/56003386/160987027-590ccdbe-887b-402d-8ca4-48ef4ace8256.png)
+
+Install RabbitMQ: https://www.rabbitmq.com/download.html
+
+Navigate to server sbin folder of RabbitMQ location.  This should be found within the erlang install location.
+
+cd "C:\Program Files\erl-24.3.2\lib\rabbitmq-server-windows-3.9.13\rabbitmq_server-3.9.13\sbin"
+
+Run .\rabbitmq-server.bat 
+
+For to launch the server on a local host.  Can visit http://localhost:15672/ in your browser to monitor activity.
+
 Run as many receiver.py instances as you would like to support on RabbitMQ.  
 
 Then run producer.py with the .wav filename or Google cloud storage link (gs:) in command line.  e.g. (gs://ttaylor-speech-to-text/testSpeech2.wav)
